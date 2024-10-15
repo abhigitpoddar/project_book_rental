@@ -15,6 +15,7 @@ services:
     command: >
       bash -c "python manage.py migrate
       && python manage.py superuser
+      && python manage.py loaddata load_all_data.json
       && python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code

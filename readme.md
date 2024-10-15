@@ -26,10 +26,10 @@ Book rental system is a service where end users can rent books from the availabl
 5. Open docker daemon
 6. Open terminal, go to project directory. run the following command:
       1. docker-compose build
-          - this command will install the requirements.txt and and create working directory and will create a local image for the project_book_rental,
-          - this command will download the postgres image from dockerhub to the local for use
-
+          - this command will install the requirements.txt and create working directory.
       2. docker-compose up
+          - this command will download the postgres image from dockerhub to the local for use if not available locally.
+          - will create a local image for the project_book_rental app and db.
           - this command will run the container for image to make the server up and running in local.
           - migrate the database and create the schema accordingly
           - create a superuser if doesn't exists
@@ -83,8 +83,15 @@ Book rental system is a service where end users can rent books from the availabl
       ![alt text](doc/screenshots/refresh2.png)
 
 
+## Future Scopes
+1. Introduce Author for Book Model
+2. Expose an API to list all books for an Author
+3. As soon as Admin stops the Rental, An invoice gets generated and sends through the email to the User with billing amount and usage of months
+4. Integrating book recommendations based on previously rented titles.
+5. Reporting and analysis
+
 
 ## Important:
 1. we should not push the local .env file to Git Repo, that should be used for local work. But here, it has been pushed for the reference, we can push one file .env.copy with the variable names without values
 
-2. Here .env variable TIMEUNIT value must be "Month" or "Minute". This has been done to adjust the same property between 'large scale: Month' and 'small scale: Minute'. If the requirement is in month, to test it in local, we can test using TIMEUNIT=Minute.
+2. Here .env variable TIMEUNIT value must be "Month" or "Minute". This has been done to adjust the same property between 'large scale: Month' and 'small scale: Minute'. In order to test it in local with small duration, we can test using TIMEUNIT=Minute.
