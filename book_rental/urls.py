@@ -23,3 +23,5 @@ urlpatterns = [
     path("book-rental-service/rental-service/", include("rental_service.urls")),
     path("book-rental-service/rental-request-service/", include("request_rental.urls")),
 ]
+
+admin.site.site_header = 'Book Rental Service'

@@ -1,0 +1,222 @@
+[
+  {
+    "model": "rental_service.book",
+    "pk": "01add705-6a3a-4f2d-b046-56f0dbe1b170",
+    "fields":
+      {
+        "name": "The Da Vinci Code",
+        "page": 400,
+        "created_at": "2024-10-15T19:48:38.471618+05:30",
+        "updated_at": "2024-10-15T19:48:38.471644+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "3ae3046b-09d7-4987-b2e7-882fce29add7",
+    "fields":
+      {
+        "name": "Tintin in Tibet",
+        "page": 60,
+        "created_at": "2024-10-15T19:48:50.073807+05:30",
+        "updated_at": "2024-10-15T19:48:50.073825+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "7093f389-28bf-47d4-8d1d-cf277d599db3",
+    "fields":
+      {
+        "name": "Jane Eyre",
+        "page": 350,
+        "created_at": "2024-10-15T20:09:18.809371+05:30",
+        "updated_at": "2024-10-15T20:09:18.809389+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "1193a3da-2615-43ac-9b78-c01dbb7ca6e3",
+    "fields":
+      {
+        "name": "Pride and Prejudice",
+        "page": 450,
+        "created_at": "2024-10-15T20:09:42.524593+05:30",
+        "updated_at": "2024-10-15T20:09:42.524608+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "55f26dc7-7fc5-4df9-85ee-a2ed821a5a9b",
+    "fields":
+      {
+        "name": "The Great Gatsby",
+        "page": 160,
+        "created_at": "2024-10-15T20:09:55.344649+05:30",
+        "updated_at": "2024-10-15T20:09:55.344662+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "c9d77384-8223-4249-8e4f-0a05037f2b51",
+    "fields":
+      {
+        "name": "Frankenstein",
+        "page": 250,
+        "created_at": "2024-10-15T20:10:09.778390+05:30",
+        "updated_at": "2024-10-15T20:10:09.778401+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "0b18177f-6b0c-4551-a3fe-2a56fd2dd5e5",
+    "fields":
+      {
+        "name": "Crime and Punishment",
+        "page": 100,
+        "created_at": "2024-10-15T20:10:31.287754+05:30",
+        "updated_at": "2024-10-15T20:10:31.287768+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "2727b6da-de1e-4895-9015-83a367f4e28d",
+    "fields":
+      {
+        "name": "Great Expectations",
+        "page": 200,
+        "created_at": "2024-10-15T20:10:45.556980+05:30",
+        "updated_at": "2024-10-15T20:10:45.556994+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "abaeca62-3100-450b-93a6-8a96f977c7a9",
+    "fields":
+      {
+        "name": "To kill a Mockingbird",
+        "page": 60,
+        "created_at": "2024-10-15T20:11:11.198028+05:30",
+        "updated_at": "2024-10-15T20:11:11.198043+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "6fb33894-53c0-45a1-80fb-3d519c90e1ae",
+    "fields":
+      {
+        "name": "Hamlet",
+        "page": 230,
+        "created_at": "2024-10-15T20:11:27.493815+05:30",
+        "updated_at": "2024-10-15T20:11:27.493828+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "ccabdce6-9f28-4c4e-b47f-ae86a1f6215d",
+    "fields":
+      {
+        "name": "Lollita",
+        "page": 300,
+        "created_at": "2024-10-15T20:11:35.993269+05:30",
+        "updated_at": "2024-10-15T20:11:35.993281+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "c927479e-8271-4396-a1af-bd50346c145e",
+    "fields":
+      {
+        "name": "Harry Potter",
+        "page": 100,
+        "created_at": "2024-10-15T20:13:28.043181+05:30",
+        "updated_at": "2024-10-15T20:13:28.043195+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "f03677b8-7245-4291-8dba-ecb0c21f30c0",
+    "fields":
+      {
+        "name": "Noddy",
+        "page": 50,
+        "created_at": "2024-10-15T20:13:44.579560+05:30",
+        "updated_at": "2024-10-15T20:13:44.579575+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "60de549f-c216-4a91-b25c-4349e360d139",
+    "fields":
+      {
+        "name": "A Tale of Two Cities",
+        "page": 500,
+        "created_at": "2024-10-15T20:14:11.060725+05:30",
+        "updated_at": "2024-10-15T20:14:11.060736+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "27b21652-5e8c-48c3-9758-77f2c1bc9742",
+    "fields":
+      {
+        "name": "Flowers in the Attic",
+        "page": 150,
+        "created_at": "2024-10-15T20:14:43.829382+05:30",
+        "updated_at": "2024-10-15T20:14:43.829394+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "097c6070-34f6-4120-a8df-7e7f0ec58a58",
+    "fields":
+      {
+        "name": "Angels and Demons",
+        "page": 470,
+        "created_at": "2024-10-15T20:15:00.413849+05:30",
+        "updated_at": "2024-10-15T20:15:00.413863+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "8664ef28-3330-4b27-93c4-40879f616156",
+    "fields":
+      {
+        "name": "The Girl on the Train",
+        "page": 90,
+        "created_at": "2024-10-15T20:15:35.402070+05:30",
+        "updated_at": "2024-10-15T20:15:35.402085+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "3528c822-4913-43ea-87a8-c0a16611e650",
+    "fields":
+      {
+        "name": "Prisoners of the Sun",
+        "page": 60,
+        "created_at": "2024-10-15T20:15:57.067990+05:30",
+        "updated_at": "2024-10-15T20:15:57.068002+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "34c7d518-9f09-476a-8935-18152a82eb42",
+    "fields":
+      {
+        "name": "Tintin on the Moon",
+        "page": 60,
+        "created_at": "2024-10-15T20:16:04.798179+05:30",
+        "updated_at": "2024-10-15T20:16:04.798191+05:30"
+      }
+  },
+  {
+    "model": "rental_service.book",
+    "pk": "68091c52-eff3-43c1-9787-afb9b2b0af89",
+    "fields":
+      {
+        "name": "The adventures of Tintin",
+        "page": 160,
+        "created_at": "2024-10-15T20:16:17.869255+05:30",
+        "updated_at": "2024-10-15T20:16:17.869267+05:30"
+      }
+  }
+]
