@@ -13,7 +13,7 @@ Book rental system is a service where end users can rent books from the availabl
 5. Admin can approve the rental request from the system dashboard. As soon as admin approves the request, the rental will get start, the rental status will be FREE for first month.
 6. Admin can refresh the amounts for charges incurred to the rental, as soon as the rental exceed one month, it will be charged according to the rule for every subsequent months, simultaneously, the status of the Rental will be changed from FREE to PURCHASED.
 7. Admin can filter the rentals on users.
-8. Admin can stop the rental from the dashboard. Status of the rental will be changed to INACTIVE
+8. Admin can stop the rental from the dashboard. Status of the rental will be changed to INACTIVE.
 
 ## Getting Started with Book Rental System
 
